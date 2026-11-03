@@ -1,0 +1,56 @@
+
+
+.bg-image {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(img_vari/hero-inizio.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.div_button {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    height: 100vh;
+    border: none;
+}
+
+.esplora{
+    background-color: transparent;
+    border: none blueviolet;
+    color: #fe7104;
+}
+
+.esplora:hover {
+    background: #FE7104;
+    background: linear-gradient(90deg, rgba(254, 113, 4, 1) 0%, rgba(209, 167, 50, 1) 53%, rgba(224, 201, 72, 1) 100%);
+    color: black;
+}
+
+.carta {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100vh;
+    border: none;
+}
+
+/**.disco{
+    width: 210px;
+    height: 210px;
+    border-radius: 50%;
+    object-fit: cover;
+    animation: rotazione 3s linear infinite;
+    animation-play-state: running;
+}
+@keyframes rotazione {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+**/
